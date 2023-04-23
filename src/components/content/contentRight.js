@@ -1,7 +1,8 @@
 import Image from 'next/image'
 import { BiUser } from 'react-icons/bi'
 import { GrNotification } from 'react-icons/gr'
-import visa from '/public/visa.png'
+import visa from '/public/visa.svg'
+import user from '/public/user.svg'
 import TransactionList from '/src/components/content/TransactionList'
 
 export default function ContentRight() {
@@ -10,7 +11,7 @@ export default function ContentRight() {
             <div className='pt-12 flex justify-end space-x-9 items-center'>
                 <GrNotification size={20} />
                 <BiUser size={20} />
-                <Image src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg"
+                <Image src={user}
                     alt="user"
                     className="h-9 w-9 object-cover rounded-full"
                     width={9}

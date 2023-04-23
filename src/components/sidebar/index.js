@@ -13,7 +13,7 @@ export default function Sidebar() {
         <>
         <div className="h-screen border-r border-gray-200 w-64 px-9 py-9 space-y-10">
             <div className="flex flex-row items-center">
-                <Image src="/logo.png" alt="kanban" className="w-125 h-8" width={125} height={35} />
+                <Image src="/logo.svg" alt="kanban" className="w-130 h-10" width={130} height={10} />
             </div>
             <div className='space-y-7'>
             <div>
